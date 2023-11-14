@@ -142,9 +142,10 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 1rem;
 		line-height: 1.65;
+		/* background-color: rgba(27, 31, 34, 1); */
 	}
 
 	a {
@@ -175,6 +176,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		/* color: #fd7130; */
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
@@ -912,7 +914,7 @@ input, select, textarea {
 
 			ul.icons li a {
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
+				box-shadow: inset 0 0 0 1.5px #000000;
 				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
@@ -1305,8 +1307,8 @@ input, select, textarea {
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-top-width: 1.5px;
+			border-bottom-width: 1.5px;
 			max-width: 100%;
 		}
 
