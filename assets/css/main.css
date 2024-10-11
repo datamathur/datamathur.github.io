@@ -152,13 +152,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: dotted #A6C36F;
 		text-decoration: none;
 		color: inherit;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-bottom-color: #BEEF9E;
+			border-bottom: solid;
 		}
 
 	strong, b {
@@ -1372,11 +1373,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(30, 53, 47, 1);
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(30, 53, 47, 1);
 					}
 
 		#header nav.use-middle:after {
@@ -1676,10 +1677,15 @@ input, select, textarea {
 			padding: 2rem;
 		}
 
-		#main_logo img {
-			width: auto;
-			max-width: 100%;
-		}
+			#main_logo img {
+				width: auto;
+				max-width: 100%;
+			}
+
+			#main_logo a {
+				text-decoration: underline dashed #A6C36F;
+			}
+
 
 		@media screen and (max-width: 980px) {
 			#main_logo {
@@ -1728,4 +1734,12 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		#footer ul li a:hover {
+			background-color: rgba(30, 53, 47, 1);
+		}
+
+		#footer ul li a:active {
+			background-color: rgba(30, 53, 47, 1);
 		}
