@@ -1144,7 +1144,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(30, 53, 47, 0.5), rgba(30, 53, 47, 0.65)), url("../../images/overlay.png");
+			background-image: radial-gradient(rgba(30, 53, 47, 0.35) 40%, rgba(30, 53, 47, 0.9)), url("../../images/overlay.png");
 			background-size: auto,
  256px 256px;
 			background-position: center,
